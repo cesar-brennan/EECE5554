@@ -1,0 +1,1 @@
+Ubuntu 22.04 LTS installed, ready to use Git and GitHub.
