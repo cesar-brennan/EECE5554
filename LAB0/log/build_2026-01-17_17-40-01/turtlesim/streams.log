@@ -1,0 +1,524 @@
+[0.031s] Invoking command in '/home/bcesar/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bcesar/Documents/Git/EECE5554/LAB0/install/launch_testing_examples:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_pointcloud_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_subscriber:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_service:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_server:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_guard_conditions:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/bcesar/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/bcesar/ros2_ws/install/turtlesim
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.265s] -- The CXX compiler identification is GNU 11.4.0
+[0.280s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.425s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.425s] -- Detecting C compile features
+[0.426s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.556s] -- Detecting CXX compiler ABI info - done
+[0.569s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.571s] -- Detecting CXX compile features
+[0.571s] -- Detecting CXX compile features - done
+[0.579s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.943s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.225s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.233s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.310s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.327s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.348s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.525s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.620s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.631s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.840s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.898s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.983s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.012s] -- Looking for pthread.h
+[2.160s] -- Looking for pthread.h - found
+[2.160s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.319s] -- Found Threads: TRUE  
+[2.416s] -- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.499s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.535s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[3.287s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.400s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.407s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.456s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.456s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.456s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.456s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.509s] -- Found PythonExtra: .so  
+[4.689s] -- Configuring done
+[4.815s] -- Generating done
+[4.855s] -- Build files have been written to: /home/bcesar/ros2_ws/build/turtlesim
+[4.877s] Invoked command in '/home/bcesar/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bcesar/Documents/Git/EECE5554/LAB0/install/launch_testing_examples:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_pointcloud_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_subscriber:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_service:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_server:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_guard_conditions:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/bcesar/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/bcesar/ros2_ws/install/turtlesim
+[4.878s] Invoking command in '/home/bcesar/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bcesar/Documents/Git/EECE5554/LAB0/install/launch_testing_examples:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_pointcloud_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_subscriber:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_service:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_server:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_guard_conditions:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/bcesar/ros2_ws/build/turtlesim -- -j2 -l2
+[4.985s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.010s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.882s] [  3%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o[0m
+[6.933s] [  3%] Built target turtlesim__cpp
+[6.986s] [  3%] Built target ament_cmake_python_copy_turtlesim
+[7.005s] [  4%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o[0m
+[7.082s] [  5%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o[0m
+[7.116s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.158s] [  7%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o[0m
+[7.260s] [  8%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o[0m
+[7.365s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o[0m
+[7.461s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o[0m
+[7.567s] [ 11%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o[0m
+[7.667s] [ 12%] [32m[1mLinking C shared library libturtlesim__rosidl_generator_c.so[0m
+[7.737s] [ 12%] Built target turtlesim__rosidl_generator_c
+[7.760s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.989s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[8.704s] [ 15%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o[0m
+[9.114s] [ 16%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o[0m
+[9.146s] [ 17%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o[0m
+[9.535s] [ 18%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o[0m
+[9.946s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[10.005s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[10.347s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o[0m
+[10.575s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[10.766s] [ 23%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[11.158s] [ 24%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o[0m
+[11.190s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[11.557s] [ 26%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so[0m
+[11.636s] [ 26%] Built target turtlesim__rosidl_typesupport_cpp
+[11.658s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.737s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o[0m
+[12.384s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o[0m
+[12.988s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o[0m
+[13.020s] [ 31%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o[0m
+[13.105s] [ 32%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o[0m
+[13.168s] [ 33%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o[0m
+[13.220s] [ 34%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o[0m
+[13.294s] [ 35%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o[0m
+[13.365s] [ 36%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o[0m
+[13.430s] [ 37%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o[0m
+[13.504s] [ 38%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o[0m
+[13.573s] [ 39%] [32m[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so[0m
+[13.592s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o[0m
+[13.636s] [ 40%] Built target turtlesim__rosidl_typesupport_introspection_c
+[13.659s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.201s] [ 42%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.322s] [ 42%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[14.339s] [ 43%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.529s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[14.634s] [ 45%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o[0m
+[14.689s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o[0m
+[14.738s] [ 47%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o[0m
+[14.797s] [ 48%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[14.864s] [ 49%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o[0m
+[14.918s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[14.980s] [ 51%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[15.036s] [ 52%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so[0m
+[15.119s] [ 52%] Built target turtlesim__rosidl_typesupport_c
+[15.503s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o[0m
+[15.588s] running egg_info
+[15.589s] creating turtlesim.egg-info
+[15.591s] writing turtlesim.egg-info/PKG-INFO
+[15.591s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[15.591s] writing top-level names to turtlesim.egg-info/top_level.txt
+[15.591s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[15.593s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[15.594s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[15.632s] [ 53%] Built target ament_cmake_python_build_turtlesim_egg
+[15.671s] [ 54%] [34m[1mGenerating include/turtlesim/moc_turtle_frame.cpp[0m
+[15.849s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o[0m
+[16.385s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o[0m
+[16.965s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o[0m
+[17.526s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o[0m
+[18.163s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o[0m
+[18.730s] [ 60%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o[0m
+[19.303s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o[0m
+[19.905s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o[0m
+[20.476s] [ 63%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so[0m
+[20.611s] [ 63%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[20.630s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[22.776s] [ 65%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[40.417s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o[0m
+[41.706s] [ 67%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[47.077s] [ 68%] [32m[1mLinking CXX executable turtlesim_node[0m
+[50.176s] [ 68%] Built target turtlesim_node
+[50.225s] [ 69%] [32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o[0m
+[51.450s] [ 70%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[51.872s] [ 70%] Built target turtle_teleop_key
+[51.911s] [ 71%] [32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o[0m
+[64.311s] [ 72%] [32m[1mLinking CXX executable draw_square[0m
+[65.022s] [ 72%] Built target draw_square
+[65.051s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[65.281s] [ 74%] [32m[1mLinking CXX executable mimic[0m
+[65.909s] [ 74%] Built target mimic
+[66.232s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o[0m
+[66.234s] [ 76%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o[0m
+[66.736s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o[0m
+[66.819s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o[0m
+[67.250s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o[0m
+[67.353s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o[0m
+[67.847s] [ 81%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o[0m
+[67.943s] [ 82%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o[0m
+[68.478s] [ 83%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so[0m
+[68.611s] [ 83%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[68.651s] [ 83%] Built target turtlesim
+[68.683s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[70.868s] [ 84%] Built target turtlesim__py
+[70.908s] [ 85%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o[0m
+[70.909s] [ 86%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o[0m
+[71.152s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o[0m
+[71.208s] [ 88%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o[0m
+[71.332s] [ 89%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o[0m
+[71.335s] [ 90%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o[0m
+[71.476s] [ 91%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o[0m
+[71.551s] [ 92%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o[0m
+[71.764s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so[0m
+[71.851s] [ 93%] Built target turtlesim__rosidl_generator_py
+[71.894s] [ 94%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[71.899s] [ 95%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[72.158s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[72.170s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[72.229s] [ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[72.243s] [ 97%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[72.266s] [ 98%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o[0m
+[72.513s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[72.595s] [100%] Built target turtlesim__rosidl_typesupport_c__pyext
+[72.623s] Invoked command in '/home/bcesar/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bcesar/Documents/Git/EECE5554/LAB0/install/launch_testing_examples:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_pointcloud_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_subscriber:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_service:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_server:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_guard_conditions:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/bcesar/ros2_ws/build/turtlesim -- -j2 -l2
+[72.646s] Invoking command in '/home/bcesar/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bcesar/Documents/Git/EECE5554/LAB0/install/launch_testing_examples:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_pointcloud_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_subscriber:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_service:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_server:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_guard_conditions:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/bcesar/ros2_ws/build/turtlesim
+[72.663s] -- Install configuration: ""
+[72.664s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[72.664s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[72.665s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[72.666s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[72.666s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[72.666s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[72.666s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[72.667s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[72.667s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[72.668s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[72.668s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[72.668s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[72.669s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[72.669s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[72.670s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[72.670s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[72.671s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[72.671s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[72.672s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[72.673s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[72.673s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[72.674s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[72.674s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[72.674s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[72.675s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[72.676s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[72.676s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[72.676s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[72.677s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[72.677s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[72.677s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[72.678s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[72.678s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[72.679s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[72.679s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[72.679s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[72.680s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[72.680s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[72.680s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[72.681s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[72.681s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[72.681s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[72.681s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[72.681s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[72.681s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[72.682s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[72.682s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[72.682s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[72.682s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[72.682s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh
+[72.683s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[72.683s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[72.683s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""
+[72.683s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[72.683s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[72.683s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[72.683s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[72.683s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[72.684s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[72.684s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[72.684s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[72.684s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[72.684s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[72.684s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[72.684s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[72.684s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[72.684s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[72.685s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[72.685s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[72.685s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[72.685s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""
+[72.685s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[72.685s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[72.685s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+[72.685s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[72.685s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[72.686s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[72.686s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[72.686s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[72.686s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp
+[72.686s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp
+[72.686s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[72.686s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[72.687s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[72.687s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[72.688s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[72.688s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[72.689s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[72.689s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[72.690s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[72.690s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp
+[72.690s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[72.690s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[72.690s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[72.691s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[72.691s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[72.692s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[72.692s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[72.692s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[72.692s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[72.692s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[72.692s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[72.693s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[72.693s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp
+[72.693s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[72.693s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[72.693s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp
+[72.693s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[72.694s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[72.694s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[72.694s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[72.694s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[72.694s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[72.694s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp
+[72.694s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp
+[72.695s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[72.695s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[72.695s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp
+[72.695s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[72.695s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[72.695s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[72.695s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[72.695s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[72.696s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[72.696s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[72.696s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[72.696s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[72.696s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[72.696s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[72.696s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[72.696s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[72.696s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[72.696s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[72.697s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[72.697s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[72.697s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[72.697s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[72.697s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[72.697s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[72.697s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""
+[72.697s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[72.697s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[72.698s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[72.698s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[72.698s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[72.698s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[72.699s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[72.699s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[72.699s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[72.699s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[72.699s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[72.700s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[72.700s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[72.701s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[72.701s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[72.701s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[72.701s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[72.701s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[72.701s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[72.701s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[72.701s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[72.702s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[72.702s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[72.702s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[72.702s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[72.703s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""
+[72.703s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[72.703s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""
+[72.703s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[72.703s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[72.704s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[72.704s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[72.704s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[72.704s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[72.704s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[72.704s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[72.705s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[72.705s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[72.705s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[72.705s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[72.705s] -- Up-to-date: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[72.705s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[72.705s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[72.705s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[72.706s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[72.706s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[72.706s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[72.706s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[72.706s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[72.706s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[72.706s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[72.707s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[72.708s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""
+[72.708s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[72.709s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""
+[72.709s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[72.709s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[72.709s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info
+[72.710s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/top_level.txt
+[72.710s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/SOURCES.txt
+[72.710s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/PKG-INFO
+[72.710s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/dependency_links.txt
+[72.710s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[72.710s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[72.711s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[72.711s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[72.711s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[72.711s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[72.711s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[72.711s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[72.711s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[72.712s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[72.712s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[72.712s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[72.713s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[72.714s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[72.714s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[72.714s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[72.714s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[72.714s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[72.714s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[72.714s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[72.714s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[72.714s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[72.715s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[72.715s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[72.715s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[72.715s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[72.715s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[72.716s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[72.716s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[72.716s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[72.716s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[72.800s] Listing '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[72.800s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...
+[72.800s] Listing '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[72.800s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...
+[72.800s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...
+[72.800s] Listing '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[72.801s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...
+[72.801s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...
+[72.801s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...
+[72.801s] Listing '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[72.801s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...
+[72.801s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...
+[72.801s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...
+[72.801s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...
+[72.801s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...
+[72.801s] Compiling '/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...
+[72.808s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[72.810s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[72.810s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[72.810s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[72.812s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[72.812s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[72.812s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[72.813s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""
+[72.813s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[72.814s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl
+[72.814s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl
+[72.814s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl
+[72.815s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[72.815s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[72.816s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[72.816s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[72.816s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[72.817s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg
+[72.817s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg
+[72.817s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv
+[72.817s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[72.817s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[72.818s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[72.818s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[72.818s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[72.819s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[72.819s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[72.819s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[72.820s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[72.820s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[72.820s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[72.821s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[72.821s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[72.821s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[72.822s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node
+[72.832s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[72.832s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[72.835s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[72.837s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/turtlesim/draw_square
+[72.840s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/turtlesim/draw_square" to ""
+[72.840s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/lib/turtlesim/mimic
+[72.845s] -- Set runtime path of "/home/bcesar/ros2_ws/install/turtlesim/lib/turtlesim/mimic" to ""
+[72.845s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images
+[72.845s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png
+[72.845s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png
+[72.846s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png
+[72.846s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png
+[72.846s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png
+[72.847s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png
+[72.847s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png
+[72.847s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png
+[72.847s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png
+[72.847s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/launch
+[72.847s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[72.848s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[72.848s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[72.848s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[72.848s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[72.849s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh
+[72.849s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv
+[72.849s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash
+[72.850s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh
+[72.850s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh
+[72.850s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv
+[72.850s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/package.dsv
+[72.850s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[72.850s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[72.851s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[72.851s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[72.851s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[72.851s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[72.852s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[72.852s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[72.852s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[72.852s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[72.852s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[72.853s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[72.853s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[72.853s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[72.853s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[72.854s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[72.854s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[72.854s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[72.854s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[72.854s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.855s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[72.855s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[72.855s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[72.855s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[72.855s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[72.856s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[72.856s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[72.857s] -- Installing: /home/bcesar/ros2_ws/install/turtlesim/share/turtlesim/package.xml
+[72.859s] Invoked command in '/home/bcesar/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bcesar/Documents/Git/EECE5554/LAB0/install/launch_testing_examples:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_pointcloud_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_subscriber:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_service:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_publisher:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_server:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_minimal_action_client:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_guard_conditions:/home/bcesar/Documents/Git/EECE5554/LAB0/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/bcesar/ros2_ws/build/turtlesim
