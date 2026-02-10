@@ -1,0 +1,330 @@
+[0.000000] (-) TimerEvent: {}
+[0.001277] (gps_msg) JobQueued: {'identifier': 'gps_msg', 'dependencies': OrderedDict()}
+[0.001385] (gps_driver) JobQueued: {'identifier': 'gps_driver', 'dependencies': OrderedDict([('gps_msg', '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg')])}
+[0.001421] (gps_msg) JobStarted: {'identifier': 'gps_msg'}
+[0.018898] (gps_msg) JobProgress: {'identifier': 'gps_msg', 'progress': 'cmake'}
+[0.020325] (gps_msg) JobProgress: {'identifier': 'gps_msg', 'progress': 'build'}
+[0.021592] (gps_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg', '--', '-j2', '-l2'], 'cwd': '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bcesar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bcesar'), ('OLDPWD', '/home/bcesar/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1345'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bcesar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bcesar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bcesar-virtual-machine:@/tmp/.ICE-unix/1321,unix/bcesar-virtual-machine:/tmp/.ICE-unix/1321'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24e2ffe9_936d_4eb4_8d25_feb36424b599'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JNB9J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver:/opt/ros/humble')]), 'shell': False}
+[0.072699] (gps_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099876] (-) TimerEvent: {}
+[0.200245] (-) TimerEvent: {}
+[0.250297] (gps_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.287954] (gps_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.288539] (gps_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.295376] (gps_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.300375] (-) TimerEvent: {}
+[0.307150] (gps_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.322875] (gps_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.353908] (gps_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.360042] (gps_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400607] (-) TimerEvent: {}
+[0.501012] (-) TimerEvent: {}
+[0.601382] (-) TimerEvent: {}
+[0.701714] (-) TimerEvent: {}
+[0.729914] (gps_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.801845] (-) TimerEvent: {}
+[0.902834] (-) TimerEvent: {}
+[1.003247] (-) TimerEvent: {}
+[1.103581] (-) TimerEvent: {}
+[1.204010] (-) TimerEvent: {}
+[1.259466] (gps_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.304972] (-) TimerEvent: {}
+[1.405690] (-) TimerEvent: {}
+[1.453950] (gps_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.483916] (gps_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.505888] (-) TimerEvent: {}
+[1.514866] (gps_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.515040] (gps_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.515110] (gps_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.560164] (gps_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.561968] (gps_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.566946] (gps_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.606930] (-) TimerEvent: {}
+[1.643552] (gps_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.669255] (gps_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg\n'}
+[1.707976] (-) TimerEvent: {}
+[1.718952] (gps_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.740839] (gps_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.808817] (-) TimerEvent: {}
+[1.909216] (-) TimerEvent: {}
+[2.009685] (-) TimerEvent: {}
+[2.034854] (gps_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gps_msg__rosidl_generator_c.dir/rosidl_generator_c/gps_msg/msg/detail/gps_msg__functions.c.o\x1b[0m\n'}
+[2.051398] (gps_msg) StdoutLine: {'line': b'[  9%] Built target gps_msg__cpp\n'}
+[2.091496] (gps_msg) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_gps_msg\n'}
+[2.097293] (gps_msg) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libgps_msg__rosidl_generator_c.so\x1b[0m\n'}
+[2.106420] (gps_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.109804] (-) TimerEvent: {}
+[2.146809] (gps_msg) StdoutLine: {'line': b'[ 16%] Built target gps_msg__rosidl_generator_c\n'}
+[2.162276] (gps_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.209923] (-) TimerEvent: {}
+[2.310346] (-) TimerEvent: {}
+[2.364957] (gps_msg) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gps_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gps_msg/msg/gps_msg__type_support.cpp.o\x1b[0m\n'}
+[2.412841] (-) TimerEvent: {}
+[2.452388] (gps_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gps_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gps_msg/msg/detail/dds_fastrtps/gps_msg__type_support.cpp.o\x1b[0m\n'}
+[2.512974] (-) TimerEvent: {}
+[2.613491] (-) TimerEvent: {}
+[2.658060] (gps_msg) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libgps_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.715823] (gps_msg) StdoutLine: {'line': b'[ 29%] Built target gps_msg__rosidl_typesupport_cpp\n'}
+[2.716052] (-) TimerEvent: {}
+[2.731840] (gps_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.816175] (-) TimerEvent: {}
+[2.865799] (gps_msg) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libgps_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.916289] (-) TimerEvent: {}
+[2.964587] (gps_msg) StdoutLine: {'line': b'[ 35%] Built target gps_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[2.981907] (gps_msg) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.016401] (-) TimerEvent: {}
+[3.018522] (gps_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/gps_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gps_msg/msg/detail/gps_msg__type_support.c.o\x1b[0m\n'}
+[3.064986] (gps_msg) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libgps_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.107878] (gps_msg) StdoutLine: {'line': b'[ 45%] Built target gps_msg__rosidl_typesupport_introspection_c\n'}
+[3.116505] (-) TimerEvent: {}
+[3.122878] (gps_msg) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.216688] (-) TimerEvent: {}
+[3.231886] (gps_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/gps_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/gps_msg/msg/gps_msg__type_support.cpp.o\x1b[0m\n'}
+[3.276832] (gps_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libgps_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.316804] (-) TimerEvent: {}
+[3.327734] (gps_msg) StdoutLine: {'line': b'[ 54%] Built target gps_msg__rosidl_typesupport_c\n'}
+[3.409822] (gps_msg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/gps_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gps_msg/msg/detail/gps_msg__type_support.cpp.o\x1b[0m\n'}
+[3.416929] (-) TimerEvent: {}
+[3.518063] (-) TimerEvent: {}
+[3.612126] (gps_msg) StdoutLine: {'line': b'running egg_info\n'}
+[3.612315] (gps_msg) StdoutLine: {'line': b'writing gps_msg.egg-info/PKG-INFO\n'}
+[3.612484] (gps_msg) StdoutLine: {'line': b'writing dependency_links to gps_msg.egg-info/dependency_links.txt\n'}
+[3.612600] (gps_msg) StdoutLine: {'line': b'writing top-level names to gps_msg.egg-info/top_level.txt\n'}
+[3.615140] (gps_msg) StdoutLine: {'line': b"reading manifest file 'gps_msg.egg-info/SOURCES.txt'\n"}
+[3.616042] (gps_msg) StdoutLine: {'line': b"writing manifest file 'gps_msg.egg-info/SOURCES.txt'\n"}
+[3.618154] (-) TimerEvent: {}
+[3.646627] (gps_msg) StdoutLine: {'line': b'[ 58%] Built target ament_cmake_python_build_gps_msg_egg\n'}
+[3.664696] (gps_msg) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.718276] (-) TimerEvent: {}
+[3.819832] (-) TimerEvent: {}
+[3.834894] (gps_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libgps_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.912743] (gps_msg) StdoutLine: {'line': b'[ 64%] Built target gps_msg__rosidl_typesupport_introspection_cpp\n'}
+[3.919971] (-) TimerEvent: {}
+[3.931783] (gps_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/gps_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gps_msg/msg/detail/gps_msg__type_support_c.cpp.o\x1b[0m\n'}
+[4.020136] (-) TimerEvent: {}
+[4.120638] (-) TimerEvent: {}
+[4.221100] (-) TimerEvent: {}
+[4.313961] (gps_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libgps_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.321885] (-) TimerEvent: {}
+[4.416346] (gps_msg) StdoutLine: {'line': b'[ 70%] Built target gps_msg__rosidl_typesupport_fastrtps_c\n'}
+[4.422023] (-) TimerEvent: {}
+[4.454815] (gps_msg) StdoutLine: {'line': b'[ 70%] Built target gps_msg\n'}
+[4.488399] (gps_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.522282] (-) TimerEvent: {}
+[4.622679] (-) TimerEvent: {}
+[4.723360] (-) TimerEvent: {}
+[4.824887] (-) TimerEvent: {}
+[4.860893] (gps_msg) StdoutLine: {'line': b'[ 74%] Built target gps_msg__py\n'}
+[4.889935] (gps_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/gps_msg__rosidl_generator_py.dir/rosidl_generator_py/gps_msg/msg/_gps_msg_s.c.o\x1b[0m\n'}
+[4.925033] (-) TimerEvent: {}
+[5.026641] (-) TimerEvent: {}
+[5.040928] (gps_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps_msg/libgps_msg__rosidl_generator_py.so\x1b[0m\n'}
+[5.110635] (gps_msg) StdoutLine: {'line': b'[ 80%] Built target gps_msg__rosidl_generator_py\n'}
+[5.124886] (gps_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gps_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.126125] (gps_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gps_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.127790] (-) TimerEvent: {}
+[5.143365] (gps_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/gps_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gps_msg/_gps_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.143797] (gps_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/gps_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gps_msg/_gps_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.226990] (-) TimerEvent: {}
+[5.263877] (gps_msg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps_msg/gps_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.264068] (gps_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps_msg/gps_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.319265] (gps_msg) StdoutLine: {'line': b'[ 93%] Built target gps_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[5.321171] (gps_msg) StdoutLine: {'line': b'[ 93%] Built target gps_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.327807] (-) TimerEvent: {}
+[5.333932] (gps_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gps_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.352653] (gps_msg) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/gps_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gps_msg/_gps_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.428886] (-) TimerEvent: {}
+[5.482091] (gps_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps_msg/gps_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.529068] (-) TimerEvent: {}
+[5.540816] (gps_msg) StdoutLine: {'line': b'[100%] Built target gps_msg__rosidl_typesupport_c__pyext\n'}
+[5.558951] (gps_msg) CommandEnded: {'returncode': 0}
+[5.559561] (gps_msg) JobProgress: {'identifier': 'gps_msg', 'progress': 'install'}
+[5.571446] (gps_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg'], 'cwd': '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bcesar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bcesar'), ('OLDPWD', '/home/bcesar/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1345'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bcesar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bcesar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bcesar-virtual-machine:@/tmp/.ICE-unix/1321,unix/bcesar-virtual-machine:/tmp/.ICE-unix/1321'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24e2ffe9_936d_4eb4_8d25_feb36424b599'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JNB9J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver:/opt/ros/humble')]), 'shell': False}
+[5.584615] (gps_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.585556] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/ament_index/resource_index/rosidl_interfaces/gps_msg\n'}
+[5.585875] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg\n'}
+[5.586093] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg\n'}
+[5.586243] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/gps_msg.h\n'}
+[5.586344] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/gp_smsg.h\n'}
+[5.586424] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail\n'}
+[5.586501] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__type_support.h\n'}
+[5.586683] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__struct.h\n'}
+[5.586780] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__functions.c\n'}
+[5.586894] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__functions.h\n'}
+[5.587052] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__type_support.h\n'}
+[5.587129] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__functions.c\n'}
+[5.587206] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__functions.h\n'}
+[5.587280] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__struct.h\n'}
+[5.587380] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.587502] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/environment/library_path.sh\n'}
+[5.587598] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/environment/library_path.dsv\n'}
+[5.587733] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_generator_c.so\n'}
+[5.588594] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_generator_c.so" to ""\n'}
+[5.588787] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg\n'}
+[5.588966] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg\n'}
+[5.589049] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.589132] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail\n'}
+[5.589210] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__rosidl_typesupport_fastrtps_c.h\n'}
+[5.589291] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[5.589513] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[5.590429] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.590607] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg\n'}
+[5.590804] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg\n'}
+[5.590933] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/gp_smsg.hpp\n'}
+[5.591020] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.591101] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/gps_msg.hpp\n'}
+[5.591187] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail\n'}
+[5.591322] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__builder.hpp\n'}
+[5.591410] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__struct.hpp\n'}
+[5.591532] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__builder.hpp\n'}
+[5.591679] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__traits.hpp\n'}
+[5.591857] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__type_support.hpp\n'}
+[5.592053] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__traits.hpp\n'}
+[5.592325] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__struct.hpp\n'}
+[5.592418] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__type_support.hpp\n'}
+[5.592502] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg\n'}
+[5.592583] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg\n'}
+[5.592664] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.592812] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail\n'}
+[5.592898] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/dds_fastrtps\n'}
+[5.592978] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.593067] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.593245] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.593642] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.593831] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg\n'}
+[5.594016] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg\n'}
+[5.594114] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.594197] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail\n'}
+[5.594278] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__rosidl_typesupport_introspection_c.h\n'}
+[5.594358] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__type_support.c\n'}
+[5.594485] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__rosidl_typesupport_introspection_c.h\n'}
+[5.594571] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__type_support.c\n'}
+[5.594743] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_introspection_c.so\n'}
+[5.595899] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.596124] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_c.so\n'}
+[5.597022] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_c.so" to ""\n'}
+[5.597248] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg\n'}
+[5.597429] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg\n'}
+[5.597515] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail\n'}
+[5.597635] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__type_support.cpp\n'}
+[5.597713] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__type_support.cpp\n'}
+[5.597815] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gps_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.597895] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/include/gps_msg/gps_msg/msg/detail/gp_smsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.598012] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[5.598918] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.599123] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_cpp.so\n'}
+[5.599901] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[5.600059] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/environment/pythonpath.sh\n'}
+[5.600371] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/environment/pythonpath.dsv\n'}
+[5.600712] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg-0.0.0-py3.10.egg-info\n'}
+[5.600848] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.601151] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.601271] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.601377] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.601457] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg\n'}
+[5.601556] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/gps_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.601623] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/msg\n'}
+[5.601727] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/msg/_gp_smsg.py\n'}
+[5.601841] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/msg/_gps_msg.py\n'}
+[5.601919] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/msg/__init__.py\n'}
+[5.602005] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/msg/_gps_msg_s.c\n'}
+[5.602412] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/msg/_gp_smsg_s.c\n'}
+[5.602505] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/gps_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.602573] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/_gps_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.602638] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/_gps_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.602710] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/_gps_msg_s.ep.rosidl_typesupport_c.c\n'}
+[5.602792] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/__init__.py\n'}
+[5.602874] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/libgps_msg__rosidl_generator_py.so\n'}
+[5.602935] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/gps_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.629203] (-) TimerEvent: {}
+[5.646506] (gps_msg) StdoutLine: {'line': b"Listing '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg'...\n"}
+[5.646667] (gps_msg) StdoutLine: {'line': b"Compiling '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/__init__.py'...\n"}
+[5.646732] (gps_msg) StdoutLine: {'line': b"Listing '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/msg'...\n"}
+[5.646814] (gps_msg) StdoutLine: {'line': b"Compiling '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/msg/__init__.py'...\n"}
+[5.647221] (gps_msg) StdoutLine: {'line': b"Compiling '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/msg/_gps_msg.py'...\n"}
+[5.651993] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/gps_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.652490] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/gps_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.652825] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/gps_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.653543] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/gps_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.653703] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/gps_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.654384] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages/gps_msg/gps_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.654580] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_generator_py.so\n'}
+[5.656374] (gps_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib/libgps_msg__rosidl_generator_py.so" to ""\n'}
+[5.656500] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/msg/GpsMsg.idl\n'}
+[5.656579] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/msg/GpsMsg.msg\n'}
+[5.656640] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/ament_index/resource_index/package_run_dependencies/gps_msg\n'}
+[5.656864] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/ament_index/resource_index/parent_prefix_path/gps_msg\n'}
+[5.656958] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/environment/ament_prefix_path.sh\n'}
+[5.657019] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/environment/ament_prefix_path.dsv\n'}
+[5.657080] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/environment/path.sh\n'}
+[5.657137] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/environment/path.dsv\n'}
+[5.657250] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/local_setup.bash\n'}
+[5.657313] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/local_setup.sh\n'}
+[5.657512] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/local_setup.zsh\n'}
+[5.657665] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/local_setup.dsv\n'}
+[5.657731] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/package.dsv\n'}
+[5.657796] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/ament_index/resource_index/packages/gps_msg\n'}
+[5.657958] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/export_gps_msg__rosidl_generator_cExport.cmake\n'}
+[5.658023] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/export_gps_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.658082] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/export_gps_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.658137] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/export_gps_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.658194] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/export_gps_msg__rosidl_generator_cppExport.cmake\n'}
+[5.658248] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/export_gps_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.658302] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/export_gps_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.658388] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.658456] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.658568] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msg__rosidl_typesupport_cExport.cmake\n'}
+[5.658630] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.658687] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.658742] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.658822] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msg__rosidl_typesupport_cppExport.cmake\n'}
+[5.658879] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.658940] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/export_gps_msg__rosidl_generator_pyExport.cmake\n'}
+[5.658994] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/export_gps_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.659050] (gps_msg) StdoutLine: {'line': b'-- Installing: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[5.659260] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.659434] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.659499] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.659557] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.659615] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.659671] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.659735] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msgConfig.cmake\n'}
+[5.659807] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/cmake/gps_msgConfig-version.cmake\n'}
+[5.659865] (gps_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/share/gps_msg/package.xml\n'}
+[5.661900] (gps_msg) CommandEnded: {'returncode': 0}
+[5.688809] (gps_msg) JobEnded: {'identifier': 'gps_msg', 'rc': 0}
+[5.690991] (gps_driver) JobStarted: {'identifier': 'gps_driver'}
+[5.730841] (-) TimerEvent: {}
+[5.831168] (-) TimerEvent: {}
+[5.931514] (-) TimerEvent: {}
+[6.033098] (-) TimerEvent: {}
+[6.133990] (-) TimerEvent: {}
+[6.234680] (-) TimerEvent: {}
+[6.335238] (-) TimerEvent: {}
+[6.436001] (-) TimerEvent: {}
+[6.465831] (gps_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gps_driver', 'build', '--build-base', '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build', 'install', '--record', '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bcesar/Documents/Git/EECE5554/LAB1/src/gps_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bcesar', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bcesar', 'OLDPWD': '/home/bcesar/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1345', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bcesar/Documents/Git/EECE5554/LAB1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bcesar', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bcesar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bcesar-virtual-machine:@/tmp/.ICE-unix/1321,unix/bcesar-virtual-machine:/tmp/.ICE-unix/1321', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/24e2ffe9_936d_4eb4_8d25_feb36424b599', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JNB9J3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.168', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg'}, 'shell': False}
+[6.536146] (-) TimerEvent: {}
+[6.636579] (-) TimerEvent: {}
+[6.737760] (-) TimerEvent: {}
+[6.740392] (gps_driver) StdoutLine: {'line': b'running egg_info\n'}
+[6.740630] (gps_driver) StdoutLine: {'line': b'writing ../../build/gps_driver/gps_driver.egg-info/PKG-INFO\n'}
+[6.740781] (gps_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/gps_driver/gps_driver.egg-info/dependency_links.txt\n'}
+[6.740884] (gps_driver) StdoutLine: {'line': b'writing entry points to ../../build/gps_driver/gps_driver.egg-info/entry_points.txt\n'}
+[6.741200] (gps_driver) StdoutLine: {'line': b'writing requirements to ../../build/gps_driver/gps_driver.egg-info/requires.txt\n'}
+[6.741573] (gps_driver) StdoutLine: {'line': b'writing top-level names to ../../build/gps_driver/gps_driver.egg-info/top_level.txt\n'}
+[6.744009] (gps_driver) StdoutLine: {'line': b"reading manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'\n"}
+[6.746080] (gps_driver) StdoutLine: {'line': b"writing manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'\n"}
+[6.746221] (gps_driver) StdoutLine: {'line': b'running build\n'}
+[6.746288] (gps_driver) StdoutLine: {'line': b'running build_py\n'}
+[6.746601] (gps_driver) StdoutLine: {'line': b'running install\n'}
+[6.747063] (gps_driver) StdoutLine: {'line': b'running install_lib\n'}
+[6.748669] (gps_driver) StdoutLine: {'line': b'running install_data\n'}
+[6.748818] (gps_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.750702] (gps_driver) StdoutLine: {'line': b"removing '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.751077] (gps_driver) StdoutLine: {'line': b'Copying ../../build/gps_driver/gps_driver.egg-info to /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver-0.0.0-py3.10.egg-info\n'}
+[6.752957] (gps_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[6.776679] (gps_driver) StdoutLine: {'line': b'Installing driver script to /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/gps_driver\n'}
+[6.777494] (gps_driver) StdoutLine: {'line': b"writing list of installed files to '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/install.log'\n"}
+[6.802868] (gps_driver) CommandEnded: {'returncode': 0}
+[6.812004] (gps_driver) JobEnded: {'identifier': 'gps_driver', 'rc': 0}
+[6.813090] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg -- -j2 -l2
+[0.064s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.228s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.262s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.265s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.271s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.326s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.335s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.606s] -- Configuring incomplete, errors occurred!
+[0.606s] See also "/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/CMakeFiles/CMakeOutput.log".
+[0.606s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.607s]   Packages installing interfaces must include
+[0.607s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.607s]   package.xml
+[0.607s] Call Stack (most recent call first):
+[0.607s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.607s] 
+[0.607s] [0m
+[0.615s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.619s] Invoked command in '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg -- -j2 -l2

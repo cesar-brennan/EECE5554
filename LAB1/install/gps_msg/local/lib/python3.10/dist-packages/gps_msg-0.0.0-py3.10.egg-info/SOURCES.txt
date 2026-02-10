@@ -1,0 +1,9 @@
+setup.py
+gps_msg/__init__.py
+gps_msg.egg-info/PKG-INFO
+gps_msg.egg-info/SOURCES.txt
+gps_msg.egg-info/dependency_links.txt
+gps_msg.egg-info/top_level.txt
+gps_msg/msg/__init__.py
+gps_msg/msg/_gp_smsg.py
+gps_msg/msg/_gps_msg.py

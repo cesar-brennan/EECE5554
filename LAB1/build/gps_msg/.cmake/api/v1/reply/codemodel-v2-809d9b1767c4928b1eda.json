@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ec0d5c3972f769b0fb3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "gps_msg__py",
+					"jsonFile" : "directory-gps_msg__py-2e4be0daf0b2c1426f56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/gps_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gps_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gps_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gps_msg_egg-cbcb075f8efad5a7347d.json",
+					"name" : "ament_cmake_python_build_gps_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gps_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gps_msg-9dbef6479eb8cd78db44.json",
+					"name" : "ament_cmake_python_copy_gps_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg-5cc2365bbda71f14c3e7.json",
+					"name" : "gps_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__cpp-4c684cb3513d14b6001e.json",
+					"name" : "gps_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gps_msg__py::@b0255785b5ff83d794d0",
+					"jsonFile" : "target-gps_msg__py-6d086a8f64a72c0f11ff.json",
+					"name" : "gps_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_generator_c-c8d80cc0e09b47b848eb.json",
+					"name" : "gps_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_generator_py-ddbdaf26d4f2dab2313e.json",
+					"name" : "gps_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_typesupport_c-f35a97cc18c1a5799a96.json",
+					"name" : "gps_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_typesupport_c__pyext-4a31d20dba7717cc09ee.json",
+					"name" : "gps_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_typesupport_cpp-41bef02965bc397cd019.json",
+					"name" : "gps_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_typesupport_fastrtps_c-162f318e1274e0f61d6a.json",
+					"name" : "gps_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_typesupport_fastrtps_c__pyext-d47deea0c7331137304b.json",
+					"name" : "gps_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_typesupport_fastrtps_cpp-75944111be4253c469c2.json",
+					"name" : "gps_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_typesupport_introspection_c-e276f70ca2da93a501d8.json",
+					"name" : "gps_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_typesupport_introspection_c__pyext-cd304f5569c2a1f3179c.json",
+					"name" : "gps_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg__rosidl_typesupport_introspection_cpp-9b1325dc1b2bd9afadb9.json",
+					"name" : "gps_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_msg_uninstall-f103c26ba4090dc642ec.json",
+					"name" : "gps_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-512fcdcccc9cee89e5ce.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg",
+		"source" : "/home/bcesar/Documents/Git/EECE5554/LAB1/src/gps_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,2 @@
+Invoking command in '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg -- -j2 -l2
+Invoked command in '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg -- -j2 -l2

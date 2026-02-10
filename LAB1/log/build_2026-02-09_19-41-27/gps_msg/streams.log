@@ -1,0 +1,53 @@
+[0.021s] Invoking command in '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg -- -j2 -l2
+[0.057s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.211s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.249s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.251s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.258s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.310s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.317s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.612s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.612s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name gps_msg
+[0.612s]   --arguments-file
+[0.612s]   /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/rosidl_adapter__arguments__gps_msg.json
+[0.612s]   --output-dir
+[0.612s]   /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/rosidl_adapter/gps_msg
+[0.612s]   --output-file
+[0.612s]   /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/rosidl_adapter/gps_msg.idls)
+[0.612s]   returned error code 1:
+[0.612s] 
+[0.612s]   Traceback (most recent call last):
+[0.612s] 
+[0.612s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.612s]       return _run_code(code, main_globals, None,
+[0.613s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.613s]       exec(code, run_globals)
+[0.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.613s]       sys.exit(main())
+[0.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.613s]       abs_idl_file = convert_to_idl(
+[0.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.613s]       return convert_msg_to_idl(
+[0.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.613s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.613s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.613s]       self.base_type = BaseType(
+[0.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.613s]       raise InvalidResourceName(
+[0.614s] 
+[0.614s]   rosidl_adapter.parser.InvalidResourceName: 'gpsmsg' is an invalid message
+[0.614s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.614s] 
+[0.614s] Call Stack (most recent call first):
+[0.614s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.614s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.614s] 
+[0.614s] [0m
+[0.614s] -- Configuring incomplete, errors occurred!
+[0.614s] See also "/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/CMakeFiles/CMakeOutput.log".
+[0.618s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.621s] Invoked command in '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg -- -j2 -l2

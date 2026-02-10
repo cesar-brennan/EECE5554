@@ -1,0 +1,36 @@
+[1.295s] Invoking command in '/home/bcesar/Documents/Git/EECE5554/LAB1/src/gps_driver': AMENT_PREFIX_PATH=/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg PYTHONPATH=/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_driver build --build-base /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build install --record /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/install.log --single-version-externally-managed install_data
+[1.608s] running egg_info
+[1.608s] creating ../../build/gps_driver/gps_driver.egg-info
+[1.609s] writing ../../build/gps_driver/gps_driver.egg-info/PKG-INFO
+[1.609s] writing dependency_links to ../../build/gps_driver/gps_driver.egg-info/dependency_links.txt
+[1.609s] writing entry points to ../../build/gps_driver/gps_driver.egg-info/entry_points.txt
+[1.609s] writing requirements to ../../build/gps_driver/gps_driver.egg-info/requires.txt
+[1.609s] writing top-level names to ../../build/gps_driver/gps_driver.egg-info/top_level.txt
+[1.609s] writing manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'
+[1.611s] reading manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'
+[1.613s] writing manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'
+[1.613s] running build
+[1.613s] running build_py
+[1.613s] creating /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build
+[1.613s] creating /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build/lib
+[1.613s] creating /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver
+[1.613s] copying gps_driver/driver.py -> /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver
+[1.614s] copying gps_driver/__init__.py -> /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver
+[1.614s] running install
+[1.614s] running install_lib
+[1.615s] creating /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver
+[1.615s] copying /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver/driver.py -> /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver
+[1.615s] copying /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver/__init__.py -> /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver
+[1.616s] byte-compiling /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver/driver.py to driver.cpython-310.pyc
+[1.618s] byte-compiling /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver/__init__.py to __init__.cpython-310.pyc
+[1.618s] running install_data
+[1.618s] creating /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/share/ament_index
+[1.618s] creating /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/share/ament_index/resource_index
+[1.619s] creating /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/share/ament_index/resource_index/packages
+[1.619s] copying resource/gps_driver -> /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/share/ament_index/resource_index/packages
+[1.619s] copying package.xml -> /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/share/gps_driver
+[1.619s] running install_egg_info
+[1.622s] Copying ../../build/gps_driver/gps_driver.egg-info to /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver-0.0.0-py3.10.egg-info
+[1.623s] running install_scripts
+[1.646s] writing list of installed files to '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/install.log'
+[1.671s] Invoked command in '/home/bcesar/Documents/Git/EECE5554/LAB1/src/gps_driver' returned '0': AMENT_PREFIX_PATH=/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_msg PYTHONPATH=/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_driver build --build-base /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build install --record /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/install.log --single-version-externally-managed install_data

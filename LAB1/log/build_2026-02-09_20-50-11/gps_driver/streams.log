@@ -1,0 +1,21 @@
+[0.795s] Invoking command in '/home/bcesar/Documents/Git/EECE5554/LAB1/src/gps_driver': PYTHONPATH=/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_driver build --build-base /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build install --record /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/install.log --single-version-externally-managed install_data
+[1.092s] running egg_info
+[1.094s] writing ../../build/gps_driver/gps_driver.egg-info/PKG-INFO
+[1.094s] writing dependency_links to ../../build/gps_driver/gps_driver.egg-info/dependency_links.txt
+[1.095s] writing entry points to ../../build/gps_driver/gps_driver.egg-info/entry_points.txt
+[1.095s] writing requirements to ../../build/gps_driver/gps_driver.egg-info/requires.txt
+[1.095s] writing top-level names to ../../build/gps_driver/gps_driver.egg-info/top_level.txt
+[1.097s] reading manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'
+[1.099s] writing manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'
+[1.099s] running build
+[1.099s] running build_py
+[1.100s] running install
+[1.100s] running install_lib
+[1.102s] running install_data
+[1.102s] running install_egg_info
+[1.104s] removing '/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[1.104s] Copying ../../build/gps_driver/gps_driver.egg-info to /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver-0.0.0-py3.10.egg-info
+[1.106s] running install_scripts
+[1.129s] Installing driver script to /home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/gps_driver
+[1.130s] writing list of installed files to '/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/install.log'
+[1.153s] Invoked command in '/home/bcesar/Documents/Git/EECE5554/LAB1/src/gps_driver' returned '0': PYTHONPATH=/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bcesar/Documents/Git/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_driver build --build-base /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/build install --record /home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_driver/install.log --single-version-externally-managed install_data

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/gps_msg__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "gps_msg::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "gps_msg__py::@b0255785b5ff83d794d0",
+	"name" : "gps_msg__py",
+	"paths" : 
+	{
+		"build" : "gps_msg__py",
+		"source" : "/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/gps_msg__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/gps_msg__py/CMakeFiles/gps_msg__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/gps_msg__py/CMakeFiles/gps_msg__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bcesar/Documents/Git/EECE5554/LAB1/build/gps_msg/rosidl_generator_py/gps_msg/_gps_msg_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

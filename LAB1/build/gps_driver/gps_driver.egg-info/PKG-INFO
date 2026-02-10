@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gps-driver
+Version: 0.0.0
+Summary: GPS Driver for EECE5554 Lab 1
+Home-page: UNKNOWN
+Maintainer: bcesar
+Maintainer-email: cesar.b@northeastern.edu
+License: TODO: License declaration
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

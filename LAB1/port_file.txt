@@ -1,0 +1,7 @@
+/dev/pts/6
+/dev/pts/6
+/dev/pts/6
+/dev/pts/6
+/dev/pts/6
+/dev/pts/6
+/dev/pts/6
